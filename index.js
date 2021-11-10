@@ -4,9 +4,9 @@ const { fifaData } = require('./fifa.js')
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
-
+//const WCFINALS2014 = fifaData.filter(item => item.Year === 2014 && item.Stage === 'Final');
 //(a) Home Team name for 2014 world cup final
-
+//console.log(WCFINALS2014)
 //(b) Away Team name for 2014 world cup final
 
 //(c) Home Team goals for 2014 world cup final
