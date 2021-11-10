@@ -41,7 +41,7 @@ Use the higher-order function called getYears to do the following:
 3. Return an array called years containing all of the years in the getFinals data set*/
 
 function getYears(array, callback) {
-    let array = callback.map(item => item.Year);
+     callback(array).map(item => item.Year);
 }
 console.log(getYears(fifaData, getFinals));
 
@@ -55,8 +55,9 @@ Use the higher-order function getWinners to do the following:
 4. Returns the names of all winning countries in an array called `winners` */ 
 
 function getWinners(array, callback) {
-    
+    callback(array).map(item => item['Win condition']);
 }
+console.log(getWinners(fifaData, getFinals));
 
 
 
@@ -71,8 +72,8 @@ Use the higher-order function getWinnersByYear to do the following:
 hint: the strings returned need to exactly match the string in step 4.
  */
 
-function getWinnersByYear(/* code here */) {
-    /* code here */
+function getWinnersByYear(array, callbackt2, callbackt3, callbackt4) {
+    
 }
 
 
